@@ -1,0 +1,78 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-image: url('open-book-more-books.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 10px;
+  color:  rgb(255, 255, 255);;
+}
+
+main {
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff52;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(34, 33, 33, 0.61);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature i {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}

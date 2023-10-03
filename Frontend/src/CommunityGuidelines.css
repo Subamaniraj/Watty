@@ -1,0 +1,39 @@
+.community-guidelines {
+  background-color: rgba(248, 190, 142, 0.918);
+  font-family: Arial, sans-serif;
+  height: 160vh;
+
+}
+
+.boxcom {
+  background-color: #9771715d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #333;
+  margin: 0;
+}
+
+.content1 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f773;
+  border-radius: 5px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
